@@ -16,7 +16,7 @@ Programa de escritorio para **valorar acciones por descuento de flujos futuros (
 
 ![Panel principal de Stock Value](capturas/01-panel.png)
 
-La lista de empresas con sus datos financieros, sus crecimientos y los cuatro precios justos (PER, B/Neto Ajustado, FCF y la media de los tres), cada uno con su margen y los colores de la escala de la hoja del curso. Los datos entran por descarga, por lectura OCR o a mano; cada empresa se abre con un clic y se puede recalcular al momento. Desde aquí también se lanza el screener y se abre el último informe.
+La lista de empresas con sus datos financieros, sus crecimientos y los cuatro precios justos (PER, B/Neto Ajustado, FCF y la media de los tres), cada uno con su margen y su código de colores (de rojo a verde). Los datos entran por descarga, por lectura OCR o a mano; cada empresa se abre con un clic y se puede recalcular al momento. Desde aquí también se lanza el screener y se abre el último informe.
 
 ### La valoración de una empresa
 
@@ -28,7 +28,7 @@ Los tres métodos y su media, el margen frente al precio actual, el gráfico de 
 
 ![Informe del screener](capturas/03-informe.png)
 
-El screener busca empresas al estilo Finviz y deja un informe en `Documentos\Stock Value\informes`: el embudo del filtrado, las empresas que cumplen el patrón y el precio justo de cada una —con los colores de la hoja— ordenadas de mayor a menor margen. Se puede pedir **completo** o **resumido** (una página) y se abre solo al terminar la búsqueda.
+El screener busca empresas entre miles de valores aplicando filtros de calidad, de caída desde máximos y de comportamiento del precio, y deja un informe en `Documentos\Stock Value\informes`: el embudo del filtrado, las empresas que cumplen el patrón y el precio justo de cada una —con su margen en colores— ordenadas de mayor a menor. Se puede pedir **completo** o **resumido** (una página) y se abre solo al terminar la búsqueda.
 
 ![Embudo del filtrado](capturas/04-embudo.png)
 
@@ -39,7 +39,7 @@ El screener busca empresas al estilo Finviz y deja un informe en `Documentos\Sto
 - **Calcula el precio justo**: PER, B/Neto Ajustado, FCF y la media de los tres.
 - **Muestra la valoración con gráficos** y la compara con el consenso de analistas de varias fuentes gratuitas.
 - **Exporta la valoración a tu hoja de cálculo** de Excel.
-- **Screener de empresas** al estilo Finviz, con filtro por la valoración del precio justo y **informes** en HTML.
+- **Screener de empresas** con filtros de calidad y de precio, y **informes** en HTML.
 - **Entrada de datos** por descarga, lectura OCR o a mano, y **tus propias watchlists**.
 - **Modifica los datos al vuelo** y recalcula la valoración al momento.
 - **En español y en inglés**, con guías de ayuda dentro del propio programa.
@@ -58,7 +58,7 @@ Los CSV y los informes salen a `Documentos\Stock Value\` (nada más sale del pro
 1. Entra en **[la última versión](https://github.com/stockvalueapp/stockvalue/releases/latest)** y descarga `InstaladorStockValue.exe` (sección **Assets**).
 2. Antes de abrirlo por primera vez: botón derecho en el fichero → **Propiedades** → abajo marca **Desbloquear** → **Aplicar**. Es lo habitual en un programa nuevo que no está firmado con un certificado comercial; si no lo haces, Windows enseñará un aviso azul.
 3. Sigue el instalador (siguiente, siguiente, instalar) y abre el programa.
-4. Pega la **clave de activación** que se te ha facilitado en el curso.
+4. Pega la **clave de activación** que se te ha facilitado.
 
 Para desinstalarlo: **Configuración → Aplicaciones → Stock Value → Desinstalar**.
 
@@ -80,4 +80,4 @@ El código que salga tiene que ser exactamente el mismo que el de las notas de l
 
 > Herramienta de filtrado y priorización, **no una recomendación de inversión**. Los datos pueden estar retrasados o contener errores; verifica siempre antes de operar. **Fórmate siempre y toma tus propias decisiones.**
 
-El programa es **educativo**: El código fuente no es público; este repositorio se usa para **distribuir el programa y sus actualizaciones**.
+El programa es de **uso formativo**: el código fuente no es público; este repositorio se usa para **publicar las actualizaciones** del programa y continuar su desarrollo.
