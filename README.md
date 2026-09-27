@@ -81,4 +81,4 @@ El código que salga tiene que ser exactamente el mismo que el de las notas de l
 
 > Herramienta de filtrado y priorización, **no una recomendación de inversión**. Los datos pueden estar retrasados o contener errores; verifica siempre antes de operar. **Fórmate siempre y toma tus propias decisiones.**
 
-El programa es **educativo**: se activa con la clave del curso. El código fuente no es público; este repositorio se usa para **distribuir el programa y sus actualizaciones**.
+El programa es **educativo**: El código fuente no es público; este repositorio se usa para **distribuir el programa y sus actualizaciones**.
