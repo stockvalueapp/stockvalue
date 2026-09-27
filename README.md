@@ -75,7 +75,6 @@ El código que salga tiene que ser exactamente el mismo que el de las notas de l
 ## Ayuda
 
 - Dentro del programa: **Configuración → Guías**, con las instrucciones de cada pantalla.
-- Dudas del curso: pregunta a tu profesor.
 
 ## Aviso
 
